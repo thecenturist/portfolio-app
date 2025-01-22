@@ -42,7 +42,7 @@
 
 .headline {
     font-family: 'Geist', sans-serif;
-    font-size: 60px;
+    font-size: 2.2rem;
     font-weight: 600;
     max-width: 760px;
 }

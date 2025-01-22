@@ -20,7 +20,7 @@
 
 .header-section p {
     font-family: 'Geist', sans-serif;
-    font-size: 60px;
+    font-size: 2.2rem;
     font-weight: 600;
     line-height: 0%;
 }
