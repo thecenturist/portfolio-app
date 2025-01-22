@@ -1,7 +1,6 @@
 <template>
     <div class="header-section">
-        <p>Software Support & Development.</p>
-        <p>Cloud Engineering. & More</p>
+        <p>Software Support & Development. Cloud Engineering. & More</p>
     </div>
 </template>
 
