@@ -1,7 +1,7 @@
 <template>
     <a href="#" class="work-item">
         <div class="work-item-image">
-            <img :src="'src/assets/images/' + image + '.webp'">
+            <img :src="require(`@/assets/images/${image}.webp`)">
         </div>
         <div class="work-item-info">
             <div class="work-item-company">{{ company }}</div>
