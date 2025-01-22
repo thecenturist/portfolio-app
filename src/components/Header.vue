@@ -15,7 +15,6 @@
     max-width: 1200px;
     box-sizing: border-box;
     margin: 150px auto;
-    
 }
 
 .header-section p {
@@ -23,5 +22,13 @@
     font-size: 2.2rem;
     font-weight: 600;
     line-height: 0%;
+    word-wrap: break-word;
+}
+
+@media(max-width: 600px){
+    .header-section p {
+        font-size: 1.6rem;
+        word-wrap: break-word;
+    }
 }
 </style>
