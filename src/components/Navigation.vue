@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 const darkMode = ref(false)
 const toggleDarkMode = () => {
     darkMode.value = !darkMode.value
@@ -20,7 +20,15 @@ const toggleDarkMode = () => {
     } else {
         document.body.removeAttribute('data-theme')
     }
+    localStorage.setItem('theme', darkMode.value ? 'dark' : 'light')
 }
+onMounted(() => {
+    const savedTheme = localStorage.getItem('theme')
+    if (savedTheme === 'dark') {
+        darkMode.value = true
+        document.body.setAttribute('data-theme', 'dark')
+    }
+})
 </script>
 
 <style scoped>
