@@ -11,6 +11,10 @@ body {
     --secondary-text-color: #666666;
     --primary-body-color: #111111;
     --secondary-body-color: #e2dfdf;
+    --back-to-top-background: #000000;
+    --back-to-top-background-hover: #FFFFFF;
+    --back-to-top-color: #FFFFFF;
+    --back-to-top-color-hover: #000000;
 }
 
 /* Dark Mode Theme */
@@ -20,4 +24,8 @@ body {
     --secondary-text-color: #666666;
     --primary-body-color: #e2dfdf;
     --secondary-body-color: #e2dfdf;
+    --back-to-top-background: #FFFFFF;
+    --back-to-top-background-hover: #000000;
+    --back-to-top-color: #000000;
+    --back-to-top-color-hover: #FFFFFF;
 }
