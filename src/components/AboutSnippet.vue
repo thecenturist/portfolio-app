@@ -3,7 +3,7 @@
         <p>
             I’m AJ, a software support engineer and developer based in San Diego, CA with over 5 years of diverse experience. I specialize in supporting software products, crafting web applications, aligning business objectives with user needs, and overseeing comprehensive design projects. My passion lies in tackling diverse challenges in the dynamic design landscape.
         </p>
-        <a href="about/">More about me</a>
+        <router-link to="/about">More about me</router-link>
     </div>
 </template>
 
