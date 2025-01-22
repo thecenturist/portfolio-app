@@ -11,6 +11,14 @@
             <p>JavaScript</p>
             <p>Python</p>
             <p>Java</p>
+            <p>Cloud computing</p>
+            <p>Database</p>
+            <p>Networking</p>
+            <p>Automation</p>
+            <p>Containerization</p>
+            <p>Monitoring</p>
+            <p>Deployment</p>
+            <p>Version Control</p>
         </div>
     </div>
 </template>

@@ -35,7 +35,9 @@
 }
 .work-experience p {
     color: var(--primary-body-color);
+    
 }
+
 .multi-row {
     margin-bottom: 20px;
     display: flex;
