@@ -21,16 +21,9 @@
     max-width: 760px;
     font-family: 'Geist', sans-serif;
 }
-.multi-row-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
 .education p {
     line-height: 0%;
     color: var(--primary-body-color);
-}
-.multi-row-grid p {
-    font-size: 1.375rem;
 }
 .multi-row {
     margin-bottom: 20px;

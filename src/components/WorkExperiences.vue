@@ -34,11 +34,7 @@
     grid-template-columns: repeat(2, 1fr);
 }
 .work-experience p {
-    line-height: 0%;
     color: var(--primary-body-color);
-}
-.multi-row-grid p {
-    font-size: 1.375rem;
 }
 .multi-row {
     margin-bottom: 20px;
@@ -48,9 +44,11 @@
 .title {
     color: var(--primary-text-color);
     font-weight: 400;
+    font-size: 1.365rem;
 }
 .entity {
     font-size: 1.1rem;
+    color: #666666
 }
 .years {
     font-weight: 300;
