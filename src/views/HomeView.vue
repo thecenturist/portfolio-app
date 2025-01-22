@@ -1,6 +1,7 @@
 <template>
     <div class="home-view">
         <Header />
+        <Projects />
         <AboutSnippet />
         <EmailDisplay />
         <BackToTop />
@@ -15,6 +16,7 @@ import AboutSnippet from '../components/AboutSnippet.vue'
 import EmailDisplay from '../components/EmailDisplay.vue'
 import Footer from '../components/Footer.vue'
 import BackToTop from '../components/BackTop.vue'
+import Projects from '../components/Projects.vue'
 
 export default {
     name: 'Home',
@@ -22,7 +24,8 @@ export default {
         Header,
         AboutSnippet,
         EmailDisplay,
-        BackToTop
+        BackToTop,
+        Projects
     }
 }
 </script>
