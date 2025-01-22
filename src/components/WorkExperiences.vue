@@ -35,7 +35,7 @@
 }
 .work-experience p {
     line-height: 0%;
-    color: #333333;
+    color: var(--primary-body-color);
 }
 .multi-row-grid p {
     font-size: 1.375rem;
@@ -46,7 +46,7 @@
     flex-direction: column;
 }
 .title {
-    color: #111111;
+    color: var(--primary-text-color);
     font-weight: 400;
 }
 .entity {

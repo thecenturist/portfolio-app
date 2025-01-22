@@ -12,7 +12,7 @@
     max-width: 1200px;
     margin: 0 auto;
     font-family: 'Geist', sans-serif;
-    color: #888888;
+    color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 0.875rem;
     padding: 40px;

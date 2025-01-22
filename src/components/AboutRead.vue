@@ -35,7 +35,7 @@
     font-family: 'Geist';
     font-size: 1.375rem;
     line-height: 160%;
-    color: #333333;
+    color: var(--primary-body-color);
     font-weight: 300;
     max-width: 760px;
 }

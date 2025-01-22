@@ -5,12 +5,27 @@
             <router-link to="/about">About</router-link>
             <a href="https://github.com/thecenturist" target="_blank">Github</a>
             <a href="https://www.linkedin.com/in/aj-akinremi//" target="_blank">LinkedIn</a>
+            <a @click="toggleDarkMode" id="dark-mode-toggle"><i :class="darkMode ? 'pi pi-sun' : 'pi pi-moon'" style="font-size: 2rem;"></i></a>
         </nav>
     </header>
 </template>
 
+<script setup>
+import { ref } from 'vue'
+const darkMode = ref(false)
+const toggleDarkMode = () => {
+    darkMode.value = !darkMode.value
+    if(darkMode.value){
+        document.body.setAttribute('data-theme', 'dark')
+    } else {
+        document.body.removeAttribute('data-theme')
+    }
+}
+</script>
+
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "primeicons/primeicons.css";
 
 .header {
     margin-top: 30px;
@@ -22,6 +37,7 @@
     margin-left: auto;
     margin-right: auto;
     font-size: 16px;
+    color: var(--primary-text-color);
 }
 
 .logo {
@@ -33,7 +49,7 @@
 }
 .logo, .header a {
     font-family: 'Outfit';
-    color: #111111;
+    color: var(--primary-text-color);
     font-weight: 500;
 }
 
@@ -42,11 +58,11 @@ a {
     text-decoration: none;
 }
 .navbar a {
-    position: relative;
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
     margin-left:60px;
+    transition: 0.3s ease;
 }
 .navbar a::before {
     content: '';
@@ -60,5 +76,11 @@ a {
 .navbar a:hover {
     text-decoration: underline;
     text-decoration-thickness: 4px;
+}
+#dark-mode-toggle {
+    text-decoration: none;
+    /* border: 1px solid var(--primary-text-color); */
+    padding: 5px;
+    border-radius: 50px;
 }
 </style>

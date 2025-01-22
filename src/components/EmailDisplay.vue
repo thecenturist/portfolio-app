@@ -34,12 +34,12 @@ const copyEmail = () => {
     font-weight: 300;
 }
 .email-display p span {
-    color: #333333;
+    color: var(--primary-body-color);
 }
 .email {
     font-size: 3.7vw;
     cursor: pointer;
-    color: #111111;
+    color: var(--primary-text-color);
     font-weight: 600;
 }
 </style>

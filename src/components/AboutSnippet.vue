@@ -22,7 +22,7 @@
     font-family: 'Geist';
     font-size: 1.375rem;
     line-height: 160%;
-    color: #333333;
+    color: var(--primary-body-color);
     font-weight: 300;
     max-width: 760px;
     align-items: center;
@@ -31,13 +31,13 @@
 .about-snippet a {
     text-decoration: none;
     font-family: 'Geist', sans-serif;
-    color: #000000;
+    color: var(--primary-text-color);
     font-style: bold;
     font-size: 1.375rem;
     cursor: pointer;
 }
 .about-snippet a:hover {
-    color: #333333;
+    color: var(--primary-body-color);
     text-decoration: underline;
 }
 </style>
