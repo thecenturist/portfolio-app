@@ -1,18 +1,22 @@
 <template>
     <div class="about-view">
         <p class="headline">
-            Senior Techinical Support Engineer specializing in development, innovation, and product evolution.
+            Senior Technical Engineer specializing in cloud-based solutions, automation, and system integration.
         </p>
         <p class="para">
-            I'm Dejan, a seasoned Senior Product Designer with over 10 years of experience in dynamic startup environments. Throughout my career, I've led end-to-end design projects, specializing in optimizing user experiences and driving product evolution. I thrive in problem-solving, prioritizing user-centric needs, and delivering high-quality designs that elevate user satisfaction.
-        </p>
-
-        <p class="para">
-            In previous roles, I've spearheaded strategic initiatives that significantly enhanced product metrics and user engagement. I excel in guiding comprehensive design projects, from strategic planning and user research to UI/UX design and seamless collaboration across teams. With a strong foundation in methodical design thinking and usability principles, I leverage diverse design tools and methodologies to achieve impactful outcomes.
+            I'm AJ, a Senior Technical Engineer with extensive experience in cloud-based solutions, automation, and system integration. Over the years, I've worked across multiple industries, specializing in backend development, troubleshooting complex network issues, and designing innovative automation tools that streamline operations and reduce manual workloads.
         </p>
 
         <p class="para">
-            My expertise lies in developing intuitive product user interfaces and fostering collaborative environments that integrate design, engineering, and product management. I am dedicated to pushing boundaries and delivering innovative solutions that align with user expectations and achieve business goals.
+            I thrive in problem-solving environments, using my expertise in systems administration, API integrations, and cloud communications to deliver high-quality technical solutions. Throughout my career, I've focused on driving product evolution, enhancing system performance, and fostering collaboration between technical teams and cross-functional stakeholders.
+        </p>
+
+        <p class="para">
+            In previous roles, I’ve contributed to automating deployment processes, improving system monitoring, and providing support for enterprise-level environments, ensuring seamless communication and integration between products and third-party systems. My hands-on experience with tools like Docker, Ansible, Kafka, and Zookeeper, combined with my ability to quickly adapt to new technologies, enables me to solve problems and optimize processes effectively.
+        </p>
+
+        <p class="para">
+            My passion for learning and improving systems has led me to take on a variety of responsibilities, from training and mentoring new hires to conducting in-depth troubleshooting for complex technical issues. I am committed to staying ahead of the curve, ensuring that the systems I work on are always evolving to meet business needs while maintaining security, reliability, and performance.
         </p>
     </div>
 </template>
