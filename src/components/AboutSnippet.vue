@@ -40,4 +40,10 @@
     color: var(--primary-body-color);
     text-decoration: underline;
 }
+
+@media(max-width: 600px){
+    .about-snippet {
+        margin: 50px auto;
+    }
+}
 </style>

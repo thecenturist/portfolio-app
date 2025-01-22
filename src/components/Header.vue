@@ -21,11 +21,13 @@
     font-family: 'Geist', sans-serif;
     font-size: 2.2rem;
     font-weight: 600;
-    line-height: 0%;
     word-wrap: break-word;
 }
 
 @media(max-width: 600px){
+    .header-section {
+        margin: 50px auto;
+    }
     .header-section p {
         font-size: 1.6rem;
         word-wrap: break-word;

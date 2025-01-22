@@ -1,7 +1,7 @@
 <template>
     <header class="header slide">
         <router-link class="logo" to="/">Anjolaoluwa "AJ" Akinremi</router-link>
-        <nav class="navbar">
+        <nav class="navbar" :class="{'navbar-collapsed': !isMenuOpen}">
             <router-link to="/about">About</router-link>
             <a href="https://github.com/thecenturist" target="_blank">Github</a>
             <a href="https://www.linkedin.com/in/aj-akinremi//" target="_blank">LinkedIn</a>
@@ -90,5 +90,10 @@ a {
     /* border: 1px solid var(--primary-text-color); */
     padding: 5px;
     border-radius: 50px;
+}
+@media(max-width: 600px){
+    .logo {
+        font-size: 20px;
+    }
 }
 </style>

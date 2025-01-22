@@ -42,4 +42,9 @@ const copyEmail = () => {
     color: var(--primary-text-color);
     font-weight: 600;
 }
+@media(max-width: 600px){
+    .email-display {
+        margin: 50px auto;
+    }
+}
 </style>
