@@ -25,4 +25,9 @@ a {
     text-decoration: none;
     color: var(--primary-text-color);
 }
+@media(max-width: 600px){
+    .footer-section {
+        font-size: 0.6rem;
+    }
+}
 </style>

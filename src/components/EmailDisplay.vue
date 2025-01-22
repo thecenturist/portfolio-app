@@ -45,5 +45,8 @@ const copyEmail = () => {
     .email-display {
         margin: 50px auto;
     }
+    .email {
+        font-size: 2rem;
+    }
 }
 </style>
