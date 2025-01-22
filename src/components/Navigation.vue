@@ -35,16 +35,20 @@ onMounted(() => {
 @import "primeicons/primeicons.css";
 
 .header {
-    margin-top: 30px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 16px;
-    color: var(--primary-text-color);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+	padding: 40px 0;
+	box-sizing: border-box;
+	max-width: 1200px;
+	left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .logo {
